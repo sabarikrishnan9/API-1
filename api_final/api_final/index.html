@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rajdhani:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <title>Task-1</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="validation_js.js" defer></script>
+</head>
+
+<body>
+
+
+    <div class="left">
+        <div class="left-pad">
+            <p class="broad-lines">
+                <img class="play-button" src="images/play-button-arrowhead.png" alt="play-button">
+                <b>Digital platform for distance</b>
+                <span class="learning">learning.</span>
+            </p>
+        </div>
+    </div>
+
+    <div class="right">
+        <div class="right-pad">
+            <p class="page-title">Login page</p>
+            <img src="images/spiral.png" class="spiral" alt="spiral" width="45px">
+            <h2 style="font-family: Arial, Helvetica, sans-serif; margin-bottom: 4px; font-size: xxx-large;">
+                <b class="hey">Hey, hello</b>
+                <img src="images/wave.png" alt="wave" width="40px" class="wave">
+            </h2>
+            <span class="Enter-the">Enter the information you entered while registering.</span>
+            <br><br>
+            <form id="form" >
+                <div class="input-group">
+                    <label>Email</label>
+                    <br>
+                    <input class="email" type="text" name="email" id="email">
+                    <div class="error"></div>
+                    <br>
+                </div>
+                <div class="input-group">
+                    <label >Password</label>
+                    <br>
+                    <input class="password" type="password" name="password" id="password">
+                    <div class="error"></div>
+                    <br>
+                </div>
+                    <div class="constraints ">
+                        <p>Password should contain</p>
+                        <span>Special character</span>
+                        <span>Capital letter</span>
+                        <span>number</span>
+                        <span>lenght of 8 character</span>
+                    </div>
+                <br>
+                <div class="login-grp">
+                    <div class="error2 er2"></div>
+                    <button class="log-in" id="login" type="submit">Login</button>
+                
+                <div class="register-grp">
+                    <div class="error2 er2"></div>
+                    <button class="register" id="register" type="submit">Register now</button>    
+                </div>    
+            </div> 
+            </form>
+            <br>
+            <hr class="below-login">
+            <span class="or">or</span>
+            <hr class="below-login">
+            <button class="signup" id="signup">
+                Sign Up
+                <img src="images/google icon.png" alt="Google Icon" class="google-icon" width="15px">
+            </button>
+        </div>
+    </div>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>

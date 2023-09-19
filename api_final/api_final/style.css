@@ -1,0 +1,273 @@
+.left {
+    width: 48%;
+    height: 98vh;
+    background-image: linear-gradient(rgb(114, 136, 223), #090979);
+    margin-left: 30px;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    overflow: hidden;
+    background-color: rgb(221, 221, 221);
+    display: flex;
+    overflow: hidden;
+}
+
+.email {
+    width: 290px;
+    height: 25px;
+    margin-bottom: 6px;
+    border-radius: 10px;
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.15) inset;
+}
+
+.password {
+    width: 290px;
+    height: 25px;
+    border-radius: 10px;
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.15) inset;
+}
+
+.right {
+    background-color: white;
+    width: 48%;
+    height: 98vh;
+    margin-right: 25px;
+}
+
+.learning {
+    color: rgb(32, 3, 58);
+    display: block;
+    font-weight: bold;
+}
+
+.you-will {
+    width: 100px;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.broad-lines {
+    width: 10px;
+    font-size: 36px;
+    color: white;
+}
+
+.spiral {
+    width: 30px;
+    margin-bottom: -50px
+}
+
+.right-pad {
+    background-color: white;
+    margin-left: 170px;
+    padding-top: 0px;
+}
+
+.Enter-the {
+    color: grey;
+    font-size: 12px;
+}
+
+.below-login {
+    width: 138px;
+    margin-top: 15px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.signup {
+    display: block;
+    width: 300px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.15);
+    margin-top: 25px;
+    font-size: small;
+    outline: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.log-in {
+    position: absolute;
+    top: 25px;
+    width: 300px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-image: linear-gradient(rgb(38, 106, 209), rgb(142, 175, 248));
+    border: none;
+    border-radius: 15px;
+    margin-bottom: 0px;
+    font-size: large;
+    color: white;
+}
+
+.register {
+    display: none;
+    position: absolute;
+    top: 25px;
+    width: 300px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-image: linear-gradient(rgb(38, 106, 209), rgb(142, 175, 248));
+    border: none;
+    border-radius: 15px;
+    margin-bottom: 0px;
+    font-size: large;
+    color: white;
+}
+
+.register.unblock {
+    display: block;
+}
+
+.log-in.block {
+    display: none;
+}
+
+.or {
+    vertical-align: middle;
+}
+
+.left-pad {
+    background-image: linear-gradient(rgb(162, 177, 235), #090979);
+    opacity: 0.7;
+    padding-left: 60px;
+    padding-right: 120px;
+    margin: 200px;
+    margin-left: 180px;
+    width: 200px;
+    height: 300px;
+    padding-top: 10px;
+    padding-bottom: 100px;
+}
+
+.check-box {
+    margin-top: 3px;
+    vertical-align: middle;
+}
+
+.Forgot-password {
+    margin-left: 50px;
+    font-size: 12px;
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+}
+
+.input-group {
+    height: 80px;
+}
+
+.input-group.error input {
+    border-color: red;
+}
+
+.input-group.success input {
+    border-color: black !important;
+}
+
+.input-group.success input:focus {
+    outline: 0;
+}
+
+.success {
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+}
+
+.page-title {
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    width: 305px;
+    color: rgb(63, 94, 251);
+    background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 0px;
+    margin-top: 100px;
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.play-button {
+    width: 50px;
+}
+
+#form {
+    width: 300px;
+}
+
+.hey {
+    font-size: 30px;
+}
+
+.login-grp {
+    position: relative;
+    height: 50px;
+}
+
+.input-group {
+    height: 80px;
+}
+
+.input-group.error2 input {
+    border-color: red;
+}
+
+.input-group.success input {
+    border-color: green;
+}
+
+.error.er2 {
+    padding-left: 55px;
+    margin-top: 10px;
+}
+
+.success2 {
+    color: green;
+}
+
+.error2.er2 {
+    padding-left: 55px;
+    margin-top: 10px;
+}
+
+.constraints span{
+display: block;
+color: rgb(179, 179, 44);
+font-weight: bold;
+font-size: 12px;
+
+}
+
+.constraints p{
+    color: darkgoldenrod;
+    font-weight: bolder;
+    font-size: 12px;
+}
+
+.constraints{
+    margin-bottom: -40px;
+    margin-top: -30px;
+}
+
+.constraints.blockit{
+    display: none;
+}
